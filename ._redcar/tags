@@ -1,10 +1,12 @@
-1336848518
+1336849700
 Application	F:/Users/Mikel/myapp/config/application.rb	  class Application 
 ApplicationController	F:/Users/Mikel/myapp/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	F:/Users/Mikel/myapp/app/helpers/application_helper.rb	module ApplicationHelper
 BrowsingTest	F:/Users/Mikel/myapp/test/performance/browsing_test.rb	class BrowsingTest 
 CreateMicroposts	F:/Users/Mikel/myapp/db/migrate/20120512160053_create_microposts.rb	class CreateMicroposts 
 CreateUsers	F:/Users/Mikel/myapp/db/migrate/20120512155946_create_users.rb	class CreateUsers 
+GET 'contact'	F:/Users/Mikel/myapp/spec/controllers/pages_controller_spec.rb	describe "GET 'contact'" do
+GET 'home'	F:/Users/Mikel/myapp/spec/controllers/pages_controller_spec.rb	describe "GET 'home'" do
 Micropost	F:/Users/Mikel/myapp/app/models/micropost.rb	class Micropost 
 MicropostTest	F:/Users/Mikel/myapp/test/unit/micropost_test.rb	class MicropostTest 
 MicropostsController	F:/Users/Mikel/myapp/app/controllers/microposts_controller.rb	class MicropostsController 
@@ -12,6 +14,8 @@ MicropostsControllerTest	F:/Users/Mikel/myapp/test/functional/microposts_control
 MicropostsHelper	F:/Users/Mikel/myapp/app/helpers/microposts_helper.rb	module MicropostsHelper
 MicropostsHelperTest	F:/Users/Mikel/myapp/test/unit/helpers/microposts_helper_test.rb	class MicropostsHelperTest 
 Myapp	F:/Users/Mikel/myapp/config/application.rb	module Myapp
+PagesController	F:/Users/Mikel/myapp/app/controllers/pages_controller.rb	class PagesController 
+PagesHelper	F:/Users/Mikel/myapp/app/helpers/pages_helper.rb	module PagesHelper
 TestCase	F:/Users/Mikel/myapp/test/test_helper.rb	class ActiveSupport::TestCase
 User	F:/Users/Mikel/myapp/app/models/user.rb	class User 
 UserTest	F:/Users/Mikel/myapp/test/unit/user_test.rb	class UserTest 
@@ -21,18 +25,26 @@ UsersHelper	F:/Users/Mikel/myapp/app/helpers/users_helper.rb	module UsersHelper
 UsersHelperTest	F:/Users/Mikel/myapp/test/unit/helpers/users_helper_test.rb	class UsersHelperTest 
 change	F:/Users/Mikel/myapp/db/migrate/20120512160053_create_microposts.rb	  def change
 change	F:/Users/Mikel/myapp/db/migrate/20120512155946_create_users.rb	  def change
+concats two strings with spaces	F:/Users/Mikel/myapp/spec/helpers/pages_helper_spec.rb	it "concats two strings with spaces" do
+contact	F:/Users/Mikel/myapp/app/controllers/pages_controller.rb	  def contact
 create	F:/Users/Mikel/myapp/app/controllers/users_controller.rb	  def create
 create	F:/Users/Mikel/myapp/app/controllers/microposts_controller.rb	  def create
 destroy	F:/Users/Mikel/myapp/app/controllers/users_controller.rb	  def destroy
 destroy	F:/Users/Mikel/myapp/app/controllers/microposts_controller.rb	  def destroy
 edit	F:/Users/Mikel/myapp/app/controllers/users_controller.rb	  def edit
 edit	F:/Users/Mikel/myapp/app/controllers/microposts_controller.rb	  def edit
+home	F:/Users/Mikel/myapp/app/controllers/pages_controller.rb	  def home
 index	F:/Users/Mikel/myapp/app/controllers/users_controller.rb	  def index
 index	F:/Users/Mikel/myapp/app/controllers/microposts_controller.rb	  def index
 new	F:/Users/Mikel/myapp/app/controllers/users_controller.rb	  def new
 new	F:/Users/Mikel/myapp/app/controllers/microposts_controller.rb	  def new
+pages/contact.html.erb	F:/Users/Mikel/myapp/spec/views/pages/contact.html.erb_spec.rb	describe "pages/contact.html.erb" do
+pages/home.html.erb	F:/Users/Mikel/myapp/spec/views/pages/home.html.erb_spec.rb	describe "pages/home.html.erb" do
+should be successful	F:/Users/Mikel/myapp/spec/controllers/pages_controller_spec.rb	it "should be successful" do
+should be successful	F:/Users/Mikel/myapp/spec/controllers/pages_controller_spec.rb	it "should be successful" do
 show	F:/Users/Mikel/myapp/app/controllers/users_controller.rb	  def show
 show	F:/Users/Mikel/myapp/app/controllers/microposts_controller.rb	  def show
+string concat	F:/Users/Mikel/myapp/spec/helpers/pages_helper_spec.rb	describe "string concat" do
 test_homepage	F:/Users/Mikel/myapp/test/performance/browsing_test.rb	  def test_homepage
 update	F:/Users/Mikel/myapp/app/controllers/users_controller.rb	  def update
 update	F:/Users/Mikel/myapp/app/controllers/microposts_controller.rb	  def update

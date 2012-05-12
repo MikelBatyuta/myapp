@@ -1,12 +1,18 @@
 --- 
 cursor_positions: 
-  - :path: Gemfile.lock
-    :cursor_offset: 2173
-    :timestamp: 2012-05-12 18:59:37.377000 +03:00
-  - :path: Gemfile
-    :cursor_offset: 561
-    :timestamp: 2012-05-12 18:40:07.428000 +03:00
   - :path: config/routes.rb
     :cursor_offset: 0
     :timestamp: 2012-05-12 19:00:53.992000 +03:00
+  - :path: Gemfile.lock
+    :cursor_offset: 559
+    :timestamp: 2012-05-12 21:48:55.438000 +03:00
+  - :path: Gemfile
+    :cursor_offset: 695
+    :timestamp: 2012-05-12 21:45:18.885000 +03:00
+  - :path: app/models/micropost.rb
+    :cursor_offset: 109
+    :timestamp: 2012-05-12 20:12:07.052000 +03:00
+  - :path: app/models/user.rb
+    :cursor_offset: 52
+    :timestamp: 2012-05-12 20:11:54.282000 +03:00
 files_to_retain: 0
